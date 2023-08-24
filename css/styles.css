@@ -1,0 +1,138 @@
+:root {
+    --accent: #FFD759;
+    --light-accent: #d5c7ff;
+    --blue: #1353ad;
+    --red: #c61c34;
+  }
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    padding: 100px 20px;
+    background-color: lightblue
+  }
+
+  #specific-page {
+    background-color: white;
+  }
+  
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Global Styles */
+  .button-styles, button {
+    padding: 10px 20px;
+    border: 0;
+    background: var(--accent);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .add-button {
+    background: var(--blue);
+  }
+
+  .logout-button {
+    background: var(--red);
+  }
+
+  .button-styles:hover, button:hover {
+    background: var(--light-accent);
+    color: #181818;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 10px;
+    border: 2px solid var(--light-accent);
+    font-size: 16px;
+    color: #181818;
+    border-radius: 10px;
+  }
+
+  /* Index Page */
+  .intro-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+  }
+
+  .intro-page-wrapper h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .intro-page-wrapper a {
+    margin-bottom: 20px;
+  }
+
+  /* Login Page*/
+  .login-form {
+    padding: 40px 0;
+  }
+
+  .input-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-row label {
+    margin-bottom: 5px;
+  }
+
+  .input-row button {
+    width: 100%;
+  }
+
+  /* Home Page */
+  header form {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--light-accent);
+  }
+
+  header form button {
+    margin-left: 10px;
+  }
+
+  #planner-table {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--light-accent);
+  }
+
+  #planner-table thead {
+    text-align: left;
+  }
+
+  #planner-table thead tr th {
+    padding: 5px 0;
+  }
+
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .add-form-buttons, .profile-form-button {
+    display: flex;
+    justify-content: space-between;
+  }
