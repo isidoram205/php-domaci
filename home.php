@@ -107,7 +107,7 @@ if (isset($_POST['update'])) {
 </div>
 
 <h3>Pretraga</h3>
-<input type="text" id="input" class="btn" placeholder="Pretraži stavke" onkeyup="search()">
+<input type="text" id="input" class="btn" placeholder="Pretraži lekove" onkeyup="search()">
 
 <script src="js/script.js"></script>
 </body>
