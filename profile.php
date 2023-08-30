@@ -32,12 +32,12 @@ $row = $user->fetch_array();
 <body class="container">
 
 <div class="input-row">
-    <label for="username">Username</label>
+    <label for="username">Korisničko ime</label>
     <input name="username" type="text" value=<?php echo $row["username"]; ?> >
 </div>
 
 <div class="input-row">
-    <label for="password">Password</label>
+    <label for="password">Lozinka</label>
     <input name="password" type="text" value=<?php echo $row["password"]; ?>>
 </div>
 
